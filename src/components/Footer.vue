@@ -119,10 +119,6 @@ const currentYear = computed(() => new Date().getFullYear());
 			<div class="footer-bottom">
 				<div class="footer-bottom-content">
 					<p>&copy; {{ currentYear }} {{ $t('company') }}. {{ $t('footer.rights') }}.</p>
-					<!--           <div class="footer-bottom-links">
-            <a href="#">{{ $t("footer.links.privacy") }}</a>
-            <a href="#">{{ $t("footer.links.terms") }}</a>
-          </div> -->
 				</div>
 			</div>
 		</div>
@@ -192,13 +188,13 @@ const currentYear = computed(() => new Date().getFullYear());
 	margin-bottom: 0.5rem;
 }
 
-.footer-links a {
+.footer-links a, .contact-item a {
 	color: #bdc3c7;
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer-links a:hover, .contact-item a:hover {
 	color: #3498db;
 }
 

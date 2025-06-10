@@ -53,13 +53,13 @@ useHead({
 							<router-link
 								:to="`/${$i18n.locale}/about`"
 								class="btn btn-secondary">
-								{{ $t('home.hero.learn_more') }}
+								{{ $t('common.learn_more') }}
 							</router-link>
 						</div>
 					</div>
 					<div class="hero-image">
 						<img
-							src="@/assets/hero-construction.jpg"
+							src="@/assets/team-member_Serhii.jpg"
 							alt="Будівництво"
 							class="hero-img" />
 					</div>
@@ -134,7 +134,7 @@ useHead({
 							<router-link
 								:to="`/${$i18n.locale}/services`"
 								class="service-link">
-								{{ $t('home.hero.learn_more') }}
+								{{ $t('common.learn_more') }}
 							</router-link>
 						</div>
 					</div>
@@ -150,7 +150,7 @@ useHead({
 							<router-link
 								:to="`/${$i18n.locale}/services`"
 								class="service-link">
-								{{ $t('home.hero.learn_more') }}
+								{{ $t('common.learn_more') }}
 							</router-link>
 						</div>
 					</div>
@@ -166,7 +166,7 @@ useHead({
 							<router-link
 								:to="`/${$i18n.locale}/services`"
 								class="service-link">
-								{{ $t('home.hero.learn_more') }}
+								{{ $t('common.learn_more') }}
 							</router-link>
 						</div>
 					</div>

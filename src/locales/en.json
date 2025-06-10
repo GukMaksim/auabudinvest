@@ -1,199 +1,206 @@
 {
-  "company": "Aquabudinvest LLC",
-  "address": "4 Sim'yi Shovkoplyasiv St., Kyiv, 04209",
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "portfolio": "Portfolio",
-    "contact": "Contact"
-  },
-  "home": {
-    "meta": {
-      "title": "@:company - Professional Construction",
-      "description": "Leading construction company specializing in industrial construction, plumbing and electrical services",
-      "keywords": "construction, plumbing, electrical, industrial life, Aquabudinvest"
-    },
-    "hero": {
-      "title": "Professional Construction with @:company",
-      "subtitle": "We specialize in industrial construction, plumbing and electrical work since 2010",
-      "cta": "Request Consultation",
-      "learn_more": "Learn More"
-    },
-    "features": {
-      "title": "Why Choose Us",
-      "experience": {
-        "title": "Over 13 Years Experience",
-        "description": "We have been working in the construction services market since 2010"
-      },
-      "quality": {
-        "title": "Quality Guarantee",
-        "description": "All work is performed according to state standards"
-      },
-      "team": {
-        "title": "Professional Team",
-        "description": "Qualified specialists with years of experience"
-      }
-    },
-    "services_preview": {
-      "title": "Our Services",
-      "industrial": "Industrial Construction",
-      "plumbing": "Plumbing Services",
-      "electrical": "Electrical Services"
-    },
-    "cta": {
-      "title": "Ready to start your project?",
-      "description": "Contact us for a free consultation"
-    }
-  },
-  "about": {
-    "meta": {
-      "title": "About Us - @:company",
-      "description": "Learn more about our company, history, mission and values of @:company"
-    },
-    "title": "About Our Company",
-    "description": "@:company is a reliable partner in construction with years of experience and impeccable reputation.",
-    "mission": {
-      "title": "Our Mission",
-      "text": "To provide high-quality construction services that exceed client expectations and contribute to Ukraine's infrastructure development.",
-      "years": "Years of experience",
-      "projects": "Completed projects",
-      "clients": "Satisfied customers"
-    },
-    "values": {
-      "title": "Our Values",
-      "quality": "Quality",
-      "quality_descr": "We strive for the highest quality standards in every project, using modern technologies and materials.",
-      "reliability": "Reliability",
-      "innovation": "Innovation",
-      "safety": "Safety"
-    }
-  },
-  "services": {
-    "meta": {
-      "title": "Services - @:company",
-      "description": "Full range of construction services: industrial construction, plumbing and electrical work"
-    },
-    "title": "Our Services",
-    "industrial": {
-      "title": "Industrial Construction",
-      "description": "Construction of industrial facilities, warehouses, production premises",
-      "features": [
-        "Factory design and construction",
-        "Warehouse complexes",
-        "Production workshops",
-        "Engineering structures"
-      ]
-    },
-    "plumbing": {
-      "title": "Plumbing Services",
-      "description": "Installation and maintenance of plumbing systems",
-      "features": ["Water supply", "Sewerage", "Heating", "Air conditioning"]
-    },
-    "electrical": {
-      "title": "Electrical Services",
-      "description": "Electrical installation and electrical system maintenance",
-      "features": [
-        "Electrical wiring",
-        "Lighting",
-        "Power installations",
-        "Automation"
-      ]
-    }
-  },
-  "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Explore our completed projects and achievements in construction",
-    "view_project": "View Project",
-    "meta": {
-      "title": "Portfolio - @:company",
-      "description": "Portfolio of completed projects by @:company. Industrial, commercial and residential facilities."
-    }
-  },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Get in touch with us to discuss your project",
-    "get_in_touch": "Get in Touch",
-    "description": "We are always ready to discuss your project and provide professional consultation. Contact us in a way that is convenient for you.",
-    "working_hours": "Working Hours",
-    "follow_us": "Follow Us",
-    "send_message": "Send Message",
-    "our_location": "Our Location",
-    "view_on_map": "View on Map",
-    "info": {
-      "address": "Contacts",
-      "hours": "Working hours"
-    },
-    "form": {
-      "first_name": "First Name",
-      "first_name_placeholder": "Enter your first name",
-      "last_name": "Last Name",
-      "last_name_placeholder": "Enter your last name",
-      "email": "Email",
-      "email_placeholder": "Enter your email",
-      "phone": "Phone",
-      "phone_placeholder": "+38 (067) 123-45-67",
-      "company": "Company",
-      "company_placeholder": "Your company name",
-      "service": "Service",
-      "select_service": "Select service",
-      "consultation": "Consultation",
-      "budget": "Budget",
-      "select_budget": "Select budget",
-      "budget_under_100k": "Under 100,000 UAH",
-      "budget_100k_500k": "100,000 - 500,000 UAH",
-      "budget_500k_1m": "500,000 - 1,000,000 UAH",
-      "budget_over_1m": "Over 1,000,000 UAH",
-      "message": "Message",
-      "message_placeholder": "Tell us more about your project",
-      "agreement": "I agree to the processing of personal data",
-      "submit": "Send Message"
-    },
-    "success": {
-      "title": "Message sent!",
-      "message": "Thank you for contacting us. We will get back to you soon."
-    },
-    "error": {
-      "message": "An error occurred while sending the message. Please try again."
-    },
-    "meta": {
-      "title": "Contact - @:company",
-      "description": "Contact information for @:company. Phone, email, office address and contact form."
-    }
-  },
-  "footer": {
-    "description": "@:company is a leading construction company with years of experience in industrial construction, plumbing and electrical work.",
-    "working_hours_work": "Mon-Fri: 8:00-18:00",
-    "working_hours_weekend": "Sat-Sun: closed",
-    "rights": "All rights reserved"
-  },
-  "common": {
-    "loading": "Loading...",
-    "error": "Error",
-    "success": "Success",
-    "required": "Required field",
-    "invalid_email": "Invalid email format",
-    "phone_placeholder": "+380 XX XXX XX XX",
-    "read_more": "Read More",
-    "contact_us": "Contact Us",
-    "learn_more": "Learn More",
-    "get_quote": "Get Quote",
-    "previous": "Previous",
-    "next": "Next",
-    "of": "of",
-    "other": "Other",
-    "submitting": "Submitting..."
-  },
-  "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, but the page you are looking for does not exist or has been moved.",
-    "backHome": "Back to Home",
-    "contact": "Contact Us",
-    "helpfulLinks": "Helpful Links",
-    "aboutDescription": "Learn more about our company and experience",
-    "servicesDescription": "Explore our services",
-    "portfolioDescription": "View our completed projects",
-    "contactDescription": "Contact us for consultation",
-    "metaDescription": "Page Not Found - @:company"
-  }
+	"company": "Aquabudinvest LLC",
+	"address": "4 Sim'yi Shovkoplyasiv St., Kyiv, 04209",
+	"nav": {
+		"home": "Home",
+		"about": "About",
+		"services": "Services",
+		"portfolio": "Portfolio",
+		"contact": "Contact"
+	},
+	"home": {
+		"meta": {
+			"title": "@:company - Professional Construction",
+			"description": "Leading construction company specializing in industrial construction, plumbing and electrical services",
+			"keywords": "construction, plumbing, electrical, industrial life, Aquabudinvest"
+		},
+		"hero": {
+			"title": "Professional Construction with @:company",
+			"subtitle": "We specialize in industrial construction, plumbing and electrical work since 2010",
+			"cta": "Request Consultation"
+		},
+		"features": {
+			"title": "Why Choose Us",
+			"experience": {
+				"title": "Over 13 Years Experience",
+				"description": "We have been working in the construction services market since 2010"
+			},
+			"quality": {
+				"title": "Quality Guarantee",
+				"description": "All work is performed according to state standards"
+			},
+			"team": {
+				"title": "Professional Team",
+				"description": "Qualified specialists with years of experience"
+			}
+		},
+		"services_preview": {
+			"title": "Our Services",
+			"industrial": "Industrial Construction",
+			"plumbing": "Plumbing Services",
+			"electrical": "Electrical Services"
+		},
+		"cta": {
+			"title": "Ready to start your project?",
+			"description": "Contact us for a free consultation"
+		}
+	},
+	"about": {
+		"meta": {
+			"title": "About Us - @:company",
+			"description": "Learn more about our company, history, mission and values of @:company"
+		},
+		"title": "About Our Company",
+		"description": "@:company is a reliable partner in construction with years of experience and impeccable reputation.",
+		"mission": {
+			"title": "Our Mission",
+			"text": "To provide high-quality construction services that exceed client expectations and contribute to Ukraine's infrastructure development.",
+			"years": "Years of experience",
+			"projects": "Completed projects",
+			"clients": "Satisfied customers"
+		},
+		"values": {
+			"title": "Our Values",
+			"quality": "Quality",
+			"quality_descr": "We strive for the highest quality standards in every project, using modern technologies and materials.",
+			"reliability": "Reliability",
+			"reliability_descr": "Reliability is the foundation of our business. We always keep up with deadlines and fulfill our commitments.",
+			"innovation": "Innovation",
+			"innovation_descr": "We constantly implement innovative solutions and modern technologies to increase work efficiency.",
+			"safety": "Safety",
+			"safety_descr": "Occupational safety is our priority. We strictly adhere to all safety regulations and rules."
+		},
+		"team": {
+			"title": "Our team",
+			"name-1": "Serhii Strikal",
+			"position-1": "General Director",
+			"description-1": "Over 20 years of experience in the construction industry. Manages the strategic development of the company."
+		}
+	},
+	"services": {
+		"meta": {
+			"title": "Services - @:company",
+			"description": "Full range of construction services: industrial construction, plumbing and electrical work"
+		},
+		"title": "Our Services",
+		"industrial": {
+			"title": "Промислове будівництво",
+			"description": "Будівництво промислових об'єктів, складів, виробничих приміщень",
+			"features-1": "Проектування та будівництво заводів",
+			"features-2": "Складські комплекси",
+			"features-3": "Виробничі цехи",
+			"features-4": "Інженерні споруди"
+		},
+		"plumbing": {
+			"title": "Сантехнічні роботи",
+			"description": "Монтаж та обслуговування сантехнічних систем",
+			"features-1": "Водопостачання",
+			"features-2": "Каналізація",
+			"features-3": "Опалення",
+			"features-4": "Кондиціонування"
+		},
+		"electrical": {
+			"title": "Електромонтажні роботи",
+			"description": "Електромонтажні роботи та обслуговування електросистем",
+			"features-1": "Електропроводка",
+			"features-2": "Освітлення",
+			"features-3": "Силові установки",
+			"features-4": "Автоматизація"
+		}
+	},
+	"portfolio": {
+		"title": "Portfolio",
+		"subtitle": "Explore our completed projects and achievements in construction",
+		"view_project": "View Project",
+		"meta": {
+			"title": "Portfolio - @:company",
+			"description": "Portfolio of completed projects by @:company. Industrial, commercial and residential facilities."
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"subtitle": "Get in touch with us to discuss your project",
+		"get_in_touch": "Get in Touch",
+		"description": "We are always ready to discuss your project and provide professional consultation. Contact us in a way that is convenient for you.",
+		"working_hours": "Working Hours",
+		"follow_us": "Follow Us",
+		"send_message": "Send Message",
+		"our_location": "Our Location",
+		"view_on_map": "View on Map",
+		"info": {
+			"address": "Contacts",
+			"hours": "Working hours"
+		},
+		"form": {
+			"first_name": "First Name",
+			"first_name_placeholder": "Enter your first name",
+			"last_name": "Last Name",
+			"last_name_placeholder": "Enter your last name",
+			"email": "Email",
+			"email_placeholder": "Enter your email",
+			"phone": "Phone",
+			"phone_placeholder": "+38 (067) 123-45-67",
+			"company": "Company",
+			"company_placeholder": "Your company name",
+			"service": "Service",
+			"select_service": "Select service",
+			"consultation": "Consultation",
+			"budget": "Budget",
+			"select_budget": "Select budget",
+			"budget_under_100k": "Under 100,000 UAH",
+			"budget_100k_500k": "100,000 - 500,000 UAH",
+			"budget_500k_1m": "500,000 - 1,000,000 UAH",
+			"budget_over_1m": "Over 1,000,000 UAH",
+			"message": "Message",
+			"message_placeholder": "Tell us more about your project",
+			"agreement": "I agree to the processing of personal data",
+			"submit": "Send Message"
+		},
+		"success": {
+			"title": "Message sent!",
+			"message": "Thank you for contacting us. We will get back to you soon."
+		},
+		"error": {
+			"message": "An error occurred while sending the message. Please try again."
+		},
+		"meta": {
+			"title": "Contact - @:company",
+			"description": "Contact information for @:company. Phone, email, office address and contact form."
+		}
+	},
+	"footer": {
+		"description": "@:company is a leading construction company with years of experience in industrial construction, plumbing and electrical work.",
+		"working_hours_work": "Mon-Fri: 8:00-18:00",
+		"working_hours_weekend": "Sat-Sun: closed",
+		"rights": "All rights reserved"
+	},
+	"common": {
+		"loading": "Loading...",
+		"error": "Error",
+		"success": "Success",
+		"required": "Required field",
+		"invalid_email": "Invalid email format",
+		"phone_placeholder": "+380 XX XXX XX XX",
+		"read_more": "Read More",
+		"contact_us": "Contact Us",
+		"learn_more": "Learn More",
+		"get_quote": "Get Quote",
+		"previous": "Previous",
+		"next": "Next",
+		"of": "of",
+		"other": "Other",
+		"submitting": "Submitting..."
+	},
+	"notFound": {
+		"title": "Page Not Found",
+		"description": "Sorry, but the page you are looking for does not exist or has been moved.",
+		"backHome": "Back to Home",
+		"contact": "Contact Us",
+		"helpfulLinks": "Helpful Links",
+		"aboutDescription": "Learn more about our company and experience",
+		"servicesDescription": "Explore our services",
+		"portfolioDescription": "View our completed projects",
+		"contactDescription": "Contact us for consultation",
+		"metaDescription": "Page Not Found - @:company"
+	}
 }

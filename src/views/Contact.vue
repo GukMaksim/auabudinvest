@@ -398,7 +398,7 @@ function resetForm() {
 
 <style scoped>
 .page-hero {
-	background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+	background: radial-gradient(circle, #055283 0%, #34495e 100%);
 	color: white;
 	padding: 3rem 0;
 	text-align: center;

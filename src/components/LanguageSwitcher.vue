@@ -42,8 +42,8 @@ watch(
 			@change="changeLanguage"
 			class="language-select">
 			<option value="ua">UA</option>
-			<option value="en">EN</option>
 			<option value="ru">RU</option>
+			<option value="en">EN</option>
 		</select>
 	</div>
 </template>

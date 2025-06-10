@@ -64,10 +64,7 @@ useHead({
 					</div>
 
 					<div class="about-image">
-						<img
-							src="../assets/about-company.jpg"
-							alt="Про компанію"
-							class="content-img" />
+						<img src="@/assets/about-company.jpg" alt="Про компанію" class="content-img" />
 					</div>
 				</div>
 			</div>
@@ -80,11 +77,7 @@ useHead({
 				<div class="grid grid-2">
 					<div class="value-card card">
 						<div class="value-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path
 									d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
 							</svg>
@@ -95,50 +88,32 @@ useHead({
 
 					<div class="value-card card">
 						<div class="value-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
 						</div>
 						<h3 class="value-title">{{ $t('about.values.reliability') }}</h3>
-						<p class="value-description">
-							Надійність - основа нашої роботи. Ми завжди дотримуємося термінів та виконуємо взяті на себе зобов'язання.
-						</p>
+						<p class="value-description">{{ $t('about.values.reliability_descr') }}</p>
 					</div>
 
 					<div class="value-card card">
 						<div class="value-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M13 10V3L4 14h7v7l9-11h-7z" />
 							</svg>
 						</div>
 						<h3 class="value-title">{{ $t('about.values.innovation') }}</h3>
-						<p class="value-description">
-							Ми постійно впроваджуємо інноваційні рішення та сучасні технології для підвищення ефективності робіт.
-						</p>
+						<p class="value-description">{{ $t('about.values.innovation_descr') }}</p>
 					</div>
 
 					<div class="value-card card">
 						<div class="value-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
 							</svg>
 						</div>
 						<h3 class="value-title">{{ $t('about.values.safety') }}</h3>
-						<p class="value-description">
-							Безпека праці - наш пріоритет. Ми суворо дотримуємося всіх норм та правил техніки безпеки.
-						</p>
+						<p class="value-description">{{ $t('about.values.safety_descr') }}</p>
 					</div>
 				</div>
 			</div>
@@ -147,31 +122,25 @@ useHead({
 		<!-- Команда -->
 		<section class="team section">
 			<div class="container">
-				<h2 class="section-title">Наша команда</h2>
+				<h2 class="section-title">{{ $t('about.team.title') }}</h2>
 				<div class="grid grid-3">
 					<div class="team-member card">
 						<div class="member-photo">
-							<img
-								src="@/assets/team-member_Serhii.jpg"
-								alt="Сергій Стрикаль" />
+							<img src="@/assets/team-member_Serhii.jpg" alt="team-member" />
 						</div>
 						<div class="member-info">
-							<h3 class="member-name">Сергій Стрикаль</h3>
-							<p class="member-position">Генеральний директор</p>
-							<p class="member-description">
-								Досвід у будівельній галузі понад 20 років. Керує стратегічним розвитком компанії.
-							</p>
+							<h3 class="member-name">{{ $t('about.team.name-1') }}</h3>
+							<p class="member-position">{{ $t('about.team.position-1') }}</p>
+							<p class="member-description">{{ $t('about.team.description-1') }}</p>
 						</div>
 					</div>
 
 					<div class="team-member card">
 						<div class="member-photo">
-							<img
-								src="../assets/team-member-2.jpg"
-								alt="Марія Коваленко" />
+							<img src="../assets/team-member_Danil.jpg" alt="team-member" />
 						</div>
 						<div class="member-info">
-							<h3 class="member-name">Марія Коваленко</h3>
+							<h3 class="member-name">Данил Стрикаль</h3>
 							<p class="member-position">Головний інженер</p>
 							<p class="member-description">
 								Відповідає за технічну частину проектів та контроль якості виконання робіт.
@@ -181,12 +150,10 @@ useHead({
 
 					<div class="team-member card">
 						<div class="member-photo">
-							<img
-								src="../assets/team-member-3.jpg"
-								alt="Олександр Сидоренко" />
+							<img src="../assets/team-member_Anna.jpg" alt="team-member" />
 						</div>
 						<div class="member-info">
-							<h3 class="member-name">Олександр Сидоренко</h3>
+							<h3 class="member-name">Анна Петрова</h3>
 							<p class="member-position">Керівник проектів</p>
 							<p class="member-description">
 								Координує виконання проектів та взаємодію з клієнтами на всіх етапах будівництва.
@@ -201,7 +168,7 @@ useHead({
 
 <style scoped>
 .page-hero {
-	background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+	background: radial-gradient(circle, #055283 0%, #34495e 100%);
 	color: white;
 	padding: 3rem 0;
 	text-align: center;

@@ -53,58 +53,38 @@ useHead({
 
 							<ul class="service-features">
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.industrial.features.0') }}
+									{{ $t('services.industrial.features-1') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.industrial.features.1') }}
+									{{ $t('services.industrial.features-2') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.industrial.features.2') }}
+									{{ $t('services.industrial.features-3') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.industrial.features.3') }}
+									{{ $t('services.industrial.features-4') }}
 								</li>
 							</ul>
 
-							<router-link
-								:to="`/${$i18n.locale}/contact`"
-								class="btn btn-primary">
+							<router-link :to="`/${$i18n.locale}/contact`" class="btn btn-primary">
 								Замовити послугу
 							</router-link>
 						</div>
 
 						<div class="service-image">
-							<img
-								src="../assets/service-industrial.jpg"
-								alt="Промислове будівництво" />
+							<img src="../assets/service-industrial.jpg" alt="Промислове будівництво" />
 						</div>
 					</div>
 				</div>
@@ -113,9 +93,7 @@ useHead({
 				<div class="service-block reverse">
 					<div class="service-content">
 						<div class="service-image">
-							<img
-								src="../assets/service-plumbing.jpg"
-								alt="Сантехнічні роботи" />
+							<img src="../assets/service-plumbing.jpg" alt="Сантехнічні роботи" />
 						</div>
 
 						<div class="service-text">
@@ -124,50 +102,32 @@ useHead({
 
 							<ul class="service-features">
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.plumbing.features.0') }}
+									{{ $t('services.plumbing.features-1') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.plumbing.features.1') }}
+									{{ $t('services.plumbing.features-2') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.plumbing.features.2') }}
+									{{ $t('services.plumbing.features-3') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.plumbing.features.3') }}
+									{{ $t('services.plumbing.features-4') }}
 								</li>
 							</ul>
 
-							<router-link
-								:to="`/${$i18n.locale}/contact`"
-								class="btn btn-primary">
+							<router-link :to="`/${$i18n.locale}/contact`" class="btn btn-primary">
 								Замовити послугу
 							</router-link>
 						</div>
@@ -183,58 +143,38 @@ useHead({
 
 							<ul class="service-features">
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.electrical.features.0') }}
+									{{ $t('services.electrical.features-1') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.electrical.features.1') }}
+									{{ $t('services.electrical.features-2') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.electrical.features.2') }}
+									{{ $t('services.electrical.features-3') }}
 								</li>
 								<li>
-									<svg
-										width="20"
-										height="20"
-										viewBox="0 0 24 24"
-										fill="currentColor">
+									<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
 										<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 									</svg>
-									{{ $t('services.electrical.features.3') }}
+									{{ $t('services.electrical.features-4') }}
 								</li>
 							</ul>
 
-							<router-link
-								:to="`/${$i18n.locale}/contact`"
-								class="btn btn-primary">
+							<router-link :to="`/${$i18n.locale}/contact`" class="btn btn-primary">
 								Замовити послугу
 							</router-link>
 						</div>
 
 						<div class="service-image">
-							<img
-								src="../assets/service-electrical.jpg"
-								alt="Електромонтажні роботи" />
+							<img src="../assets/service-electrical.jpg" alt="Електромонтажні роботи" />
 						</div>
 					</div>
 				</div>
@@ -248,11 +188,7 @@ useHead({
 				<div class="grid grid-3">
 					<div class="additional-service card">
 						<div class="service-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path
 									d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
 							</svg>
@@ -265,11 +201,7 @@ useHead({
 
 					<div class="additional-service card">
 						<div class="service-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
 						</div>
@@ -281,11 +213,7 @@ useHead({
 
 					<div class="additional-service card">
 						<div class="service-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m3 5.197v1z" />
 							</svg>
 						</div>
@@ -295,11 +223,7 @@ useHead({
 
 					<div class="additional-service card">
 						<div class="service-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M13 10V3L4 14h7v7l9-11h-7z" />
 							</svg>
 						</div>
@@ -311,11 +235,7 @@ useHead({
 
 					<div class="additional-service card">
 						<div class="service-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
 							</svg>
 						</div>
@@ -325,11 +245,7 @@ useHead({
 
 					<div class="additional-service card">
 						<div class="service-icon">
-							<svg
-								width="48"
-								height="48"
-								viewBox="0 0 24 24"
-								fill="currentColor">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
 								<path
 									d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
 							</svg>
@@ -401,7 +317,7 @@ useHead({
 
 <style scoped>
 .page-hero {
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background: radial-gradient(circle, #055283 0%, #34495e 100%);
 	color: white;
 	padding: 3rem 0;
 	text-align: center;
