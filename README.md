@@ -37,7 +37,6 @@ auabudinvest/
 │   │   ├── About.vue
 │   │   ├── Services.vue
 │   │   ├── Portfolio.vue
-│   │   ├── Testimonials.vue
 │   │   └── Contact.vue
 │   ├── layouts/           # Макети
 │   │   └── MainLayout.vue

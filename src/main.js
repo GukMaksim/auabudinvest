@@ -12,29 +12,29 @@ import ru from './locales/ru.json'
  * Створення екземпляру роутера з історією браузера
  */
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return { top: 0 }
-    }
-  }
+	history: createWebHistory(),
+	routes,
+	scrollBehavior(to, from, savedPosition) {
+		if (savedPosition) {
+			return savedPosition
+		} else {
+			return { top: 0 }
+		}
+	}
 })
 
 /**
  * Налаштування інтернаціоналізації
  */
 const i18n = createI18n({
-  legacy: false,
-  locale: localStorage.getItem('locale') || 'ua',
-  fallbackLocale: 'ua',
-  messages: {
-    ua,
-    en,
-    ru
-  }
+	legacy: false,
+	locale: localStorage.getItem('locale') || 'ua',
+	fallbackLocale: 'ua',
+	messages: {
+		ua,
+		en,
+		ru
+	}
 })
 
 /**

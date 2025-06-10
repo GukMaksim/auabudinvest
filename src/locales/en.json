@@ -6,7 +6,6 @@
     "about": "About",
     "services": "Services",
     "portfolio": "Portfolio",
-    "testimonials": "Testimonials",
     "contact": "Contact"
   },
   "home": {
@@ -109,39 +108,6 @@
     "meta": {
       "title": "Portfolio - @:company",
       "description": "Portfolio of completed projects by @:company. Industrial, commercial and residential facilities."
-    }
-  },
-  "testimonials": {
-    "title": "Client Reviews",
-    "subtitle": "What our clients say about working with us",
-    "total_reviews": "Total Reviews",
-    "average_rating": "Average Rating",
-    "satisfied_clients": "Satisfied Clients",
-    "client_reviews": "Client Reviews",
-    "add_review": "Leave a Review",
-    "form_description": "Share your experience working with us. Your review will help other clients make the right choice.",
-    "form": {
-      "name": "Name",
-      "name_placeholder": "Enter your name",
-      "email": "Email",
-      "email_placeholder": "Enter your email",
-      "company": "Company",
-      "company_placeholder": "Your company name",
-      "project_type": "Project Type",
-      "select_project_type": "Select project type",
-      "rating": "Rating",
-      "rating_required": "Please provide a rating",
-      "message": "Message",
-      "message_placeholder": "Tell us about your experience working with us",
-      "submit": "Submit Review"
-    },
-    "success": {
-      "title": "Thank you for your review!",
-      "message": "Your review has been successfully submitted. It will appear on the site after moderation."
-    },
-    "meta": {
-      "title": "Client Reviews - @:company",
-      "description": "Client reviews about @:company work. Real ratings of our service quality."
     }
   },
   "contact": {
