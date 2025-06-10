@@ -1,0 +1,35 @@
+{
+  "name": "aquabudinvest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "nodemon server.js",
+    "server:prod": "node server.js",
+    "dev:full": "concurrently \"npm run dev\" \"npm run server\"",
+    "start": "npm run server:prod"
+  },
+  "dependencies": {
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5",
+    "vue-i18n": "^9.8.0",
+    "@vueuse/head": "^2.0.0",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "validator": "^13.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
