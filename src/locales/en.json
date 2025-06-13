@@ -74,7 +74,13 @@
 			"title": "Our team",
 			"name-1": "Serhii Strikal",
 			"position-1": "General Director",
-			"description-1": "Over 20 years of experience in the construction industry. Manages the strategic development of the company."
+			"description-1": "Over 20 years of experience in the construction industry. Manages the strategic development of the company.",
+			"name-2": "Danyl Strikal",
+			"position-2": "Chief Engineer",
+			"description-2": "Responsible for the technical part of projects and quality control of work performance.",
+			"name-3": "Anna Petrova",
+			"position-3": "Project Manager",
+			"description-3": "Coordinates project implementation and interaction with clients at all stages of construction."
 		}
 	},
 	"services": {
@@ -84,28 +90,36 @@
 		},
 		"title": "Our Services",
 		"industrial": {
-			"title": "Промислове будівництво",
-			"description": "Будівництво промислових об'єктів, складів, виробничих приміщень",
-			"features-1": "Проектування та будівництво заводів",
-			"features-2": "Складські комплекси",
-			"features-3": "Виробничі цехи",
-			"features-4": "Інженерні споруди"
+			"title": "Industrial construction",
+			"description": "Construction of industrial facilities, warehouses, production facilities",
+			"features-1": "Plant design and construction",
+			"features-2": "Warehouse complexes",
+			"features-3": "Production workshops",
+			"features-4": "Engineering structures"
 		},
 		"plumbing": {
-			"title": "Сантехнічні роботи",
-			"description": "Монтаж та обслуговування сантехнічних систем",
-			"features-1": "Водопостачання",
-			"features-2": "Каналізація",
-			"features-3": "Опалення",
-			"features-4": "Кондиціонування"
+			"title": "Plumbing work",
+			"description": "Installation and maintenance of plumbing systems",
+			"features-1": "Water supply",
+			"features-2": "Sewerage",
+			"features-3": "Heating",
+			"features-4": "Air conditioning"
 		},
 		"electrical": {
-			"title": "Електромонтажні роботи",
-			"description": "Електромонтажні роботи та обслуговування електросистем",
-			"features-1": "Електропроводка",
-			"features-2": "Освітлення",
-			"features-3": "Силові установки",
-			"features-4": "Автоматизація"
+			"title": "Electrical installation work",
+			"description": "Electrical installation work and maintenance of electrical systems",
+			"features-1": "Wiring",
+			"features-2": "Lighting",
+			"features-3": "Power plants",
+			"features-4": "Automation"
+		},
+		"subtitle": "We provide a full range of construction services for industrial and commercial facilities",
+		"additional": {
+			"title": "Additional services",
+			"card-title-1": "Designing",
+			"card-description-1": "Development of project documentation in accordance with state standards and customer requirements.",
+			"card-title-2": "Consultations",
+			"card-description-2": "Professional advice on construction, selection of materials and technologies."
 		}
 	},
 	"portfolio": {
@@ -189,7 +203,8 @@
 		"next": "Next",
 		"of": "of",
 		"other": "Other",
-		"submitting": "Submitting..."
+		"submitting": "Submitting...",
+		"ordering": "Order a service"
 	},
 	"notFound": {
 		"title": "Page Not Found",

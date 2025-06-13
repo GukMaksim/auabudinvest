@@ -140,11 +140,9 @@ useHead({
 							<img src="../assets/team-member_Danil.jpg" alt="team-member" />
 						</div>
 						<div class="member-info">
-							<h3 class="member-name">Данил Стрикаль</h3>
-							<p class="member-position">Головний інженер</p>
-							<p class="member-description">
-								Відповідає за технічну частину проектів та контроль якості виконання робіт.
-							</p>
+							<h3 class="member-name">{{ $t('about.team.name-2') }}</h3>
+							<p class="member-position">{{ $t('about.team.position-2') }}</p>
+							<p class="member-description">{{ $t('about.team.description-2') }}</p>
 						</div>
 					</div>
 
@@ -153,11 +151,9 @@ useHead({
 							<img src="../assets/team-member_Anna.jpg" alt="team-member" />
 						</div>
 						<div class="member-info">
-							<h3 class="member-name">Анна Петрова</h3>
-							<p class="member-position">Керівник проектів</p>
-							<p class="member-description">
-								Координує виконання проектів та взаємодію з клієнтами на всіх етапах будівництва.
-							</p>
+							<h3 class="member-name">{{ $t('about.team.name-3') }}</h3>
+							<p class="member-position">{{ $t('about.team.position-3') }}</p>
+							<p class="member-description">{{ $t('about.team.description-3') }}</p>
 						</div>
 					</div>
 				</div>

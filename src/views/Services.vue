@@ -34,9 +34,7 @@ useHead({
 			<div class="container">
 				<div class="page-hero-content">
 					<h1 class="page-title">{{ $t('services.title') }}</h1>
-					<p class="page-subtitle">
-						Ми надаємо повний спектр будівельних послуг для промислових та комерційних об'єктів
-					</p>
+					<p class="page-subtitle">{{ $t('services.subtitle') }}</p>
 				</div>
 			</div>
 		</section>
@@ -79,12 +77,12 @@ useHead({
 							</ul>
 
 							<router-link :to="`/${$i18n.locale}/contact`" class="btn btn-primary">
-								Замовити послугу
+								{{ $t('common.ordering') }}
 							</router-link>
 						</div>
 
 						<div class="service-image">
-							<img src="../assets/service-industrial.jpg" alt="Промислове будівництво" />
+							<img src="@/assets/service-industrial.jpg" alt="Industrial construction" />
 						</div>
 					</div>
 				</div>
@@ -93,7 +91,7 @@ useHead({
 				<div class="service-block reverse">
 					<div class="service-content">
 						<div class="service-image">
-							<img src="../assets/service-plumbing.jpg" alt="Сантехнічні роботи" />
+							<img src="@/assets/service-plumbing.jpg" alt="Plumbing work" />
 						</div>
 
 						<div class="service-text">
@@ -128,7 +126,7 @@ useHead({
 							</ul>
 
 							<router-link :to="`/${$i18n.locale}/contact`" class="btn btn-primary">
-								Замовити послугу
+								{{ $t('common.ordering') }}
 							</router-link>
 						</div>
 					</div>
@@ -169,12 +167,12 @@ useHead({
 							</ul>
 
 							<router-link :to="`/${$i18n.locale}/contact`" class="btn btn-primary">
-								Замовити послугу
+								{{ $t('common.ordering') }}
 							</router-link>
 						</div>
 
 						<div class="service-image">
-							<img src="../assets/service-electrical.jpg" alt="Електромонтажні роботи" />
+							<img src="@/assets/service-electrical.jpg" alt="Electrical installation work" />
 						</div>
 					</div>
 				</div>
@@ -184,7 +182,7 @@ useHead({
 		<!-- Додаткові послуги -->
 		<section class="additional-services section">
 			<div class="container">
-				<h2 class="section-title">Додаткові послуги</h2>
+				<h2 class="section-title">{{ $t('services.additional.title') }}</h2>
 				<div class="grid grid-3">
 					<div class="additional-service card">
 						<div class="service-icon">
@@ -193,10 +191,8 @@ useHead({
 									d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
 							</svg>
 						</div>
-						<h3 class="additional-title">Проектування</h3>
-						<p class="additional-description">
-							Розробка проектної документації згідно з державними стандартами та вимогами замовника.
-						</p>
+						<h3 class="additional-title">{{ $t('services.additional.card-title-1') }}</h3>
+						<p class="additional-description">{{ $t('services.additional.card-description-1') }}</p>
 					</div>
 
 					<div class="additional-service card">
@@ -205,10 +201,8 @@ useHead({
 								<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
 						</div>
-						<h3 class="additional-title">Консультації</h3>
-						<p class="additional-description">
-							Професійні консультації з питань будівництва, вибору матеріалів та технологій.
-						</p>
+						<h3 class="additional-title">{{ $t('services.additional.card-title-2') }}</h3>
+						<p class="additional-description">{{ $t('services.additional.card-description-2') }}</p>
 					</div>
 
 					<div class="additional-service card">
