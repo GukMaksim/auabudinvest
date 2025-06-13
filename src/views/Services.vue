@@ -211,8 +211,8 @@ useHead({
 								<path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m3 5.197v1z" />
 							</svg>
 						</div>
-						<h3 class="additional-title">Технічний нагляд</h3>
-						<p class="additional-description">Контроль якості виконання робіт та дотримання технологічних процесів.</p>
+						<h3 class="additional-title">{{ $t('services.additional.card-title-3') }}</h3>
+						<p class="additional-description">{{ $t('services.additional.card-description-3') }}</p>
 					</div>
 
 					<div class="additional-service card">

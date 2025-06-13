@@ -21,7 +21,8 @@ function changeLanguage() {
 	const currentPath = route.path.replace(`/${route.params.locale}`, '') || '';
 	const newPath = `/${newLocale}${currentPath}`;
 
-	router.push(newPath);
+	// Використовуємо replace замість push
+	router.replace(newPath);
 }
 
 /**
