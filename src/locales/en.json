@@ -121,7 +121,36 @@
 			"card-title-2": "Consultations",
 			"card-description-2": "Professional advice on construction, selection of materials and technologies.",
 			"card-title-3": "Technical supervision",
-			"card-description-3": "Quality control of work performance and compliance with technological processes."
+			"card-description-3": "Quality control of work performance and compliance with technological processes.",
+			"card-title-4": "Emergency work",
+			"card-description-4": "24/7 emergency response service to address unforeseen situations.",
+			"card-title-5": "Warranty service",
+			"card-description-5": "Full warranty and post-warranty service of the work performed.",
+			"card-title-6": "Estimate documentation",
+			"card-description-6": "Preparation of detailed estimates and calculations of the cost of work."
+		},
+		"work_process": {
+			"title": "How we work",
+			"step-1": {
+				"title": "Advice",
+				"description": "Free consultation and assessment of the object. Discussion of your needs and wishes."
+			},
+			"step-2": {
+				"title": "Designing",
+				"description": "Development of technical specifications and design documentation taking into account all requirements."
+			},
+			"step-3": {
+				"title": "Contract",
+				"description": "Conclusion of a contract with a detailed description of the work, terms and cost of the project."
+			},
+			"step-4": {
+				"title": "Implementation",
+				"description": "Professional performance of work in compliance with all technologies and quality standards."
+			},
+			"step-5": {
+				"title": "Facility handover",
+				"description": "Delivery of a finished object with a full package of documents and warranty obligations."
+			}
 		}
 	},
 	"portfolio": {
@@ -131,7 +160,39 @@
 		"meta": {
 			"title": "Portfolio - @:company",
 			"description": "Portfolio of completed projects by @:company. Industrial, commercial and residential facilities."
-		}
+		},
+		"filters": {
+			"all": "All projects",
+			"industrial": "Industrial",
+			"commercial": "Commercial",
+			"residential": "Residential"
+		},
+		"projects": {
+			"1": {
+				"title": "Metal Structure Production Plant",
+				"category": "Industrial construction"
+			},
+			"2": {
+				"title": "Ocean Plaza Shopping Center"
+			},
+			"3": {
+				"title": "Sunny Residential Complex"
+			},
+			"4": {
+				"title": "Cargo Logistics Center"
+			},
+			"5": {
+				"title": "Business Park Office Center"
+			},
+			"6": {
+				"title": "Techno Production Complex"
+			}
+		},
+		"year": "Year of completion:",
+		"area": "Area:",
+		"duration": "Duration:",
+		"client": "Client:",
+		"technologies": "Technologies used:"
 	},
 	"contact": {
 		"title": "Contact",

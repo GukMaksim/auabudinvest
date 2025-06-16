@@ -6,6 +6,14 @@
 const routes = [
 	{
 		path: '/',
+		redirect: to => {
+			// Отримуємо збережену мову з localStorage або використовуємо 'ua' за замовчуванням
+			const savedLocale = localStorage.getItem('locale') || 'ua';
+			return `/${savedLocale}`;
+		}
+	},
+	{
+		path: '/',
 		component: () => import('../layouts/MainLayout.vue'),
 		children: [
 			{

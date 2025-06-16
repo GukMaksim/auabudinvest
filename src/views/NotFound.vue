@@ -11,7 +11,7 @@ const { t } = useI18n();
  * SEO мета-теги для сторінки 404
  */
 useHead({
-	title: () => `404 - ${t('notFound.title')} | ${t('company.name')}`,
+	title: () => `404 - ${t('notFound.title')} | ${t('company')}`,
 	meta: [
 		{
 			name: 'description',

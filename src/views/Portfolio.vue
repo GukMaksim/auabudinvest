@@ -3,6 +3,14 @@ import { ref, computed } from 'vue';
 import { useHead } from '@vueuse/head';
 import { useI18n } from 'vue-i18n';
 
+// Імпорт зображень
+import project1_img from '@/assets/project-1.jpg';
+import project2_img from '@/assets/project-2.jpg';
+import project3_img from '@/assets/project-3.jpg';
+import project4_img from '@/assets/project-4.jpg';
+import project5_img from '@/assets/project-5.jpg';
+import project6_img from '@/assets/project-6.jpg';
+
 const { t } = useI18n();
 
 /**
@@ -36,10 +44,10 @@ const selectedProject = ref(null);
  * Фільтри для проектів
  */
 const filters = [
-	{ key: 'all', label: 'Всі проекти' },
-	{ key: 'industrial', label: 'Промислові' },
-	{ key: 'commercial', label: 'Комерційні' },
-	{ key: 'residential', label: 'Житлові' },
+	{ key: 'all', label: t('portfolio.filters.all') },
+	{ key: 'industrial', label: t('portfolio.filters.industrial') },
+	{ key: 'commercial', label: t('portfolio.filters.commercial') },
+	{ key: 'residential', label: t('portfolio.filters.residential') },
 ];
 
 /**
@@ -48,10 +56,10 @@ const filters = [
 const projects = [
 	{
 		id: 1,
-		title: 'Завод з виробництва металоконструкцій',
-		category: 'Промислове будівництво',
+		title: t('portfolio.projects.1.title'),
+		category: t('portfolio.projects.1.category'),
 		type: 'industrial',
-		image: '../src/assets/project-1.jpg',
+		image: project1_img,
 		description:
 			'Будівництво сучасного заводу з виробництва металоконструкцій площею 5000 кв.м. Проект включав повний цикл робіт від фундаменту до введення в експлуатацію.',
 		year: '2023',
@@ -65,7 +73,7 @@ const projects = [
 		title: 'Торговельний центр "Ocean Plaza"',
 		category: 'Комерційне будівництво',
 		type: 'commercial',
-		image: '../src/assets/project-2.jpg',
+		image: project2_img,
 		description:
 			'Будівництво багатофункціонального торговельного центру з підземним паркінгом та сучасними інженерними системами.',
 		year: '2022',
@@ -79,7 +87,7 @@ const projects = [
 		title: 'Житловий комплекс "Сонячний"',
 		category: 'Житлове будівництво',
 		type: 'residential',
-		image: '../src/assets/project-3.jpg',
+		image: project3_img,
 		description:
 			'Будівництво сучасного житлового комплексу з енергоефективними технологіями та розвиненою інфраструктурою.',
 		year: '2023',
@@ -93,7 +101,7 @@ const projects = [
 		title: 'Логістичний центр "Карго"',
 		category: 'Промислове будівництво',
 		type: 'industrial',
-		image: '../src/assets/project-4.jpg',
+		image: project4_img,
 		description:
 			'Будівництво великого логістичного центру з автоматизованими системами зберігання та обробки вантажів.',
 		year: '2022',
@@ -107,7 +115,7 @@ const projects = [
 		title: 'Офісний центр "Бізнес Парк"',
 		category: 'Комерційне будівництво',
 		type: 'commercial',
-		image: '../src/assets/project-5.jpg',
+		image: project5_img,
 		description: 'Будівництво сучасного офісного центру класу А з екологічними технологіями та зеленими зонами.',
 		year: '2023',
 		area: '8000 кв.м',
@@ -120,7 +128,7 @@ const projects = [
 		title: 'Виробничий комплекс "Техно"',
 		category: 'Промислове будівництво',
 		type: 'industrial',
-		image: '../src/assets/project-6.jpg',
+		image: project6_img,
 		description: 'Будівництво виробничого комплексу для високотехнологічного виробництва з чистими приміщеннями.',
 		year: '2021',
 		area: '7000 кв.м',
@@ -164,7 +172,7 @@ function closeModal() {
 			<div class="container">
 				<div class="page-hero-content">
 					<h1 class="page-title">{{ $t('portfolio.title') }}</h1>
-					<p class="page-subtitle">Ознайомтеся з нашими завершеними проектами та досягненнями у сфері будівництва</p>
+					<p class="page-subtitle">{{ $t('portfolio.subtitle') }}</p>
 				</div>
 			</div>
 		</section>
@@ -246,14 +254,14 @@ function closeModal() {
 						<p class="modal-description">{{ selectedProject.description }}</p>
 
 						<div class="project-details">
-							<div class="detail-item"><strong>Рік завершення:</strong> {{ selectedProject.year }}</div>
-							<div class="detail-item"><strong>Площа:</strong> {{ selectedProject.area }}</div>
-							<div class="detail-item"><strong>Тривалість:</strong> {{ selectedProject.duration }}</div>
-							<div class="detail-item"><strong>Клієнт:</strong> {{ selectedProject.client }}</div>
+							<div class="detail-item"><strong>{{ $t('portfolio.year') }}</strong> {{ selectedProject.year }}</div>
+							<div class="detail-item"><strong>{{ $t('portfolio.area') }}</strong> {{ selectedProject.area }}</div>
+							<div class="detail-item"><strong>{{ $t('portfolio.duration') }}</strong> {{ selectedProject.duration }}</div>
+							<div class="detail-item"><strong>{{ $t('portfolio.client') }}</strong> {{ selectedProject.client }}</div>
 						</div>
 
 						<div class="project-technologies">
-							<h4>Використані технології:</h4>
+							<h4>{{ $t('portfolio.technologies') }}</h4>
 							<div class="tech-tags">
 								<span
 									v-for="tech in selectedProject.technologies"

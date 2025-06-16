@@ -221,10 +221,8 @@ useHead({
 								<path d="M13 10V3L4 14h7v7l9-11h-7z" />
 							</svg>
 						</div>
-						<h3 class="additional-title">Аварійні роботи</h3>
-						<p class="additional-description">
-							Цілодобова служба аварійного реагування для усунення непередбачених ситуацій.
-						</p>
+						<h3 class="additional-title">{{ $t('services.additional.card-title-4') }}</h3>
+						<p class="additional-description">{{ $t('services.additional.card-description-4') }}</p>
 					</div>
 
 					<div class="additional-service card">
@@ -233,8 +231,8 @@ useHead({
 								<path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
 							</svg>
 						</div>
-						<h3 class="additional-title">Гарантійне обслуговування</h3>
-						<p class="additional-description">Повне гарантійне та післягарантійне обслуговування виконаних робіт.</p>
+						<h3 class="additional-title">{{ $t('services.additional.card-title-5') }}</h3>
+						<p class="additional-description">{{ $t('services.additional.card-description-5') }}</p>
 					</div>
 
 					<div class="additional-service card">
@@ -244,8 +242,8 @@ useHead({
 									d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" />
 							</svg>
 						</div>
-						<h3 class="additional-title">Кошторисна документація</h3>
-						<p class="additional-description">Складання детальних кошторисів та розрахунків вартості робіт.</p>
+						<h3 class="additional-title">{{ $t('services.additional.card-title-6') }}</h3>
+						<p class="additional-description">{{ $t('services.additional.card-description-6') }}</p>
 					</div>
 				</div>
 			</div>
@@ -254,53 +252,45 @@ useHead({
 		<!-- Процес роботи -->
 		<section class="work-process section">
 			<div class="container">
-				<h2 class="section-title">Як ми працюємо</h2>
+				<h2 class="section-title">{{ $t('services.work_process.title') }}</h2>
 				<div class="process-steps">
 					<div class="process-step">
 						<div class="step-number">1</div>
 						<div class="step-content">
-							<h3 class="step-title">Консультація</h3>
-							<p class="step-description">
-								Безкоштовна консультація та оцінка об'єкта. Обговорення ваших потреб та побажань.
-							</p>
+							<h3 class="step-title">{{ $t('services.work_process.step-1.title') }}</h3>
+							<p class="step-description">{{ $t('services.work_process.step-1.description') }}</p>
 						</div>
 					</div>
 
 					<div class="process-step">
 						<div class="step-number">2</div>
 						<div class="step-content">
-							<h3 class="step-title">Проектування</h3>
-							<p class="step-description">
-								Розробка технічного завдання та проектної документації з урахуванням всіх вимог.
-							</p>
+							<h3 class="step-title">{{ $t('services.work_process.step-2.title') }}</h3>
+							<p class="step-description">{{ $t('services.work_process.step-2.description') }}</p>
 						</div>
 					</div>
 
 					<div class="process-step">
 						<div class="step-number">3</div>
 						<div class="step-content">
-							<h3 class="step-title">Договір</h3>
-							<p class="step-description">Укладення договору з детальним описом робіт, термінів та вартості проекту.</p>
+							<h3 class="step-title">{{ $t('services.work_process.step-3.title') }}</h3>
+							<p class="step-description">{{ $t('services.work_process.step-3.description') }}</p>
 						</div>
 					</div>
 
 					<div class="process-step">
 						<div class="step-number">4</div>
 						<div class="step-content">
-							<h3 class="step-title">Виконання</h3>
-							<p class="step-description">
-								Професійне виконання робіт з дотриманням всіх технологій та стандартів якості.
-							</p>
+							<h3 class="step-title">{{ $t('services.work_process.step-4.title') }}</h3>
+							<p class="step-description">{{ $t('services.work_process.step-4.description') }}</p>
 						</div>
 					</div>
 
 					<div class="process-step">
 						<div class="step-number">5</div>
 						<div class="step-content">
-							<h3 class="step-title">Здача об'єкта</h3>
-							<p class="step-description">
-								Здача готового об'єкта з повним пакетом документів та гарантійними зобов'язаннями.
-							</p>
+							<h3 class="step-title">{{ $t('services.work_process.step-5.title') }}</h3>
+							<p class="step-description">{{ $t('services.work_process.step-5.description') }}</p>
 						</div>
 					</div>
 				</div>
