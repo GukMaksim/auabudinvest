@@ -112,6 +112,7 @@ main {
 
 .grid-2 {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
 }
 
 .grid-3 {

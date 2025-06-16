@@ -473,6 +473,10 @@ useHead({
 		font-size: 1.5rem;
 	}
 
+	.service-image {
+		grid-row: 1;
+	}
+
 	.service-description {
 		font-size: 1rem;
 	}
@@ -490,6 +494,10 @@ useHead({
 		height: 50px;
 		font-size: 1.2rem;
 	}
+}
+
+@media(max-width:665px) {
+
 }
 
 @media (max-width: 480px) {

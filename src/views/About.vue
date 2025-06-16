@@ -327,6 +327,15 @@ useHead({
 	}
 }
 
+@media (max-width: 665px) {
+	.about-text {
+		grid-row: 2;
+	}
+	.about-image {
+		grid-row: 1;
+	}
+}
+
 @media (max-width: 480px) {
 	.page-hero {
 		padding: 2rem 0;
@@ -338,7 +347,7 @@ useHead({
 
 	.about-content {
 		padding: 2rem 0;
-	}
+	}	
 
 	.member-photo {
 		width: 100px;
